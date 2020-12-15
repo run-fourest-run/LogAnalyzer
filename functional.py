@@ -5,9 +5,15 @@ that makes sense'''
 
 
 
-delimiter = ''
-input_file = r'C:\Users\afournier\PycharmProjects\LogAnalyzer\Logs\48666_26_11_2020_14_33_14.log'
+'''
+the delimiter is static in the previous example. In this example it needs to be dynamic. 
+
+'''
+
+delimiter = 'message'
+input_file = r'C:\Users\afournier\PycharmProjects\LogAnalyzer\Logs\test.txt'
 key_function = lambda line: line.lstrip().startswith(delimiter)
+
 
 
 #gets the chunks of Data
@@ -18,4 +24,6 @@ def get_messages(input_file,key_function):
             if k:
                 yield chain([next(v)], (next(groups)[1]))
 
-get_messages()
+
+for x in get_messages(input_file,key_function):
+    print(x)
