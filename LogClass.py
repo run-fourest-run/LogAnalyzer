@@ -1,33 +1,46 @@
 import os
-class Log:
-    __slots__ = ('logname','phase','input_script')
+import re
 
-    def __init__(self, license_expiration):
+file = r'C:\Users\afournier\PycharmProjects\LogAnalyzer\Logs\test.txt'
+
+class Log:
+
+    __slots__ = ('version','phase')
+
+    VERSION_PATTERN = re.compile(r'version\s[0-9]\.[0-9][0-9]\.[0-9]')
+    PHASE_PATTERN = re.compile()
+
+    def __init__(self, version,phase):
+        self.__version = version
+        self.__phase = phase
+
+    @property
+    def phase(self):
+        return self.__phase
+
+    @property
+    def version(self):
+        return self.__version
 
 
 
 
     @classmethod
-    def from_file(cls,dir_path,*filename):
-        if dir_path is None:
-            dir_path = os.path.dirname(os.path.realpath(__file__) + '\\' + filename)
-        with open(dir_path) as f:
+    def from_file(cls,file):
+        with open(file) as f:
             lines = f.readlines()
+            version_object = next(filter(None, (re.search(cls.VERSION_PATTERN, x) for x in lines)))
+            version = version_object.group()
 
-
-
-
-
-
-        return cls(messages,errors,warnings)
+            return cls(version)
 
 
     def __repr__(self):
         classname = type(self).__name__
-        return '{}({!},{!},{!},{!}'.format(classname,self.messages,self.errors,self.warnings)
+        return '{}({!r})'.format(classname,self.__version)
 
 
 
 
-
-print(os.path.dirname(os.path.realpath(__file__)))
+newloginstance = Log.from_file(file)
+print(newloginstance)
