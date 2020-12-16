@@ -1,9 +1,259 @@
-grgrgrgr
-message
-grgrarabrae
-message
-brabrabr
-brgbabab
-bafebafba
-message
-beafqg
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:2 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:4 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:3 - DataflowFilter - Filter step NODE_CONTRACTION AndCondition:[NodeTypeCondition:[StatementParameter], IsTargetNodeCondition]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:2 - DataflowFilter - Filter step NODE_CONTRACTION NodeTypeCondition:[PLSQL If, PLSQL Case, PLSQL For, PLSQL Exit, PLSQL Continue, PLSQL Where, PLSQL ConnectBy, PLSQL ConnectByStart, PLSQL GroupBy, PLSQL Having, PLSQL OrderBy, PLSQL Join, PLSQL MergeOn, PLSQL Limit, PLSQL ConditionBranch, PLSQL WhileCondition, PLSQL TriggerCondition, PLSQL MultiTableInsertCondition]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:4 - DataflowFilter - Filter step NODE_CONTRACTION NodeTypeCondition:[PLSQL If, PLSQL Case, PLSQL For, PLSQL Exit, PLSQL Continue, PLSQL Where, PLSQL ConnectBy, PLSQL ConnectByStart, PLSQL GroupBy, PLSQL Having, PLSQL OrderBy, PLSQL Join, PLSQL MergeOn, PLSQL Limit, PLSQL ConditionBranch, PLSQL WhileCondition, PLSQL TriggerCondition, PLSQL MultiTableInsertCondition]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:2 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:3 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:4 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:2 - DataflowFilter - Filter step NODE_DELETE_DANGLING_TARGET AndCondition:[NodeTypeCondition:[PLSQL ColumnFlow], NotCondition:[ParentNodeTypeCondition:[PLSQL Delete, PLSQL MergeDelete, PLSQL DropTableOrView, PLSQL TruncateTable, PLSQL Return, PLSQL PipeRow, PLSQL ExecuteImmediate]]]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:4 - DataflowFilter - Filter step NODE_DELETE_DANGLING_TARGET AndCondition:[NodeTypeCondition:[PLSQL ColumnFlow], NotCondition:[ParentNodeTypeCondition:[PLSQL Delete, PLSQL MergeDelete, PLSQL DropTableOrView, PLSQL TruncateTable, PLSQL Return, PLSQL PipeRow, PLSQL ExecuteImmediate]]]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:3 - DataflowFilter - Filter step NODE_DELETE_DANGLING_TARGET AndCondition:[NodeTypeCondition:[PLSQL ColumnFlow], NotCondition:[ParentNodeTypeCondition:[PLSQL Delete, PLSQL MergeDelete, PLSQL DropTableOrView, PLSQL TruncateTable, PLSQL Return, PLSQL PipeRow, PLSQL ExecuteImmediate]]]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:2 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:4 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:2 - DataflowFilter - Filter step NODE_DELETE_DANGLING AndCondition:[NodeTypeCondition:[PLSQL ColumnFlow], ParentNodeTypeCondition:[PLSQL TriggerFlow]]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:4 - DataflowFilter - Filter step NODE_DELETE_DANGLING AndCondition:[NodeTypeCondition:[PLSQL ColumnFlow], ParentNodeTypeCondition:[PLSQL TriggerFlow]]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:3 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:2 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:4 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:3 - DataflowFilter - Filter step NODE_CONTRACTION AndCondition:[NodeTypeCondition:[PLSQL Variable], ParentNodeTypeCondition:[PLSQL Script, PLSQL Block, PLSQL ExceptionBlock, PLSQL Loop]]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:2 - DataflowFilter - Filter step NODE_DELETE_ORPHANS AndCondition:[NotCondition:[NodeTypeCondition:[Column]], NotCondition:[NodeAttributeCondition:error=null]]: nodes orig. 4, added 0 removed 4; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:1 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:4 - DataflowFilter - Filter step NODE_DELETE_ORPHANS AndCondition:[NotCondition:[NodeTypeCondition:[Column]], NotCondition:[NodeAttributeCondition:error=null]]: nodes orig. 4, added 0 removed 4; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:2 - DataflowFilter - Graph stats:
+Nodes: 0, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:3 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:1 - DataflowFilter - Filter step NODE_CONTRACTION AndCondition:[NodeTypeCondition:[RoutineCall, Table], NodeAttributeCondition:BUILTIN=null]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:4 - DataflowFilter - Graph stats:
+Nodes: 0, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 INFO  48666_oracle_FLEXUAT.properties:2 - GraphScenario - Processed file /OPUAT/Sequences/TRSQ_OK0D010, but the graph is empty!
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:3 - DataflowFilter - Filter step NODE_CONTRACTION NodeTypeCondition:[PLSQL If, PLSQL Case, PLSQL For, PLSQL Exit, PLSQL Continue, PLSQL Where, PLSQL ConnectBy, PLSQL ConnectByStart, PLSQL GroupBy, PLSQL Having, PLSQL OrderBy, PLSQL Join, PLSQL MergeOn, PLSQL Limit, PLSQL ConditionBranch, PLSQL WhileCondition, PLSQL TriggerCondition, PLSQL MultiTableInsertCondition]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:1 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 INFO  48666_oracle_FLEXUAT.properties:4 - GraphScenario - Processed file /OPUAT/Sequences/TRSQ_IE0MSOG, but the graph is empty!
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:1 - DataflowFilter - Filter step EXPRESSION_SOURCES_DIRECT LiteralLookupCondition: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:3 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:1 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:1 - DataflowFilter - Filter step NODE_CONTRACTION NodeTypeCondition:[PLSQL Literal, PLSQL Cursor, PLSQL Subquery, PLSQL Expression, PLSQL ArrayAccess, Unknown]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:3 - DataflowFilter - Filter step NODE_DELETE_DANGLING_TARGET AndCondition:[NodeTypeCondition:[PLSQL ColumnFlow], NotCondition:[ParentNodeTypeCondition:[PLSQL Delete, PLSQL MergeDelete, PLSQL DropTableOrView, PLSQL TruncateTable, PLSQL Return, PLSQL PipeRow, PLSQL ExecuteImmediate]]]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:1 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:1 - DataflowFilter - Filter step NODE_CONTRACTION AndCondition:[NodeTypeCondition:[PLSQL VarAssignment, PLSQL SelectInto], NotCondition:[IsSourceNodeCondition]]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:3 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:1 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0
+Top 10 most frequent node types:
+  Directory: 2x
+  PLSQL Script: 1x
+  Connection: 1x
+Top 10 most frequent edge types:
+
+Top 10 nodes by cardinality:
+
+Top 10 nodes by interconnections:
+
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:1 - DataflowFilter - Filter step NODE_CONTRACTION AndCondition:[NodeTypeCondition:[PLSQL Query], IsSourceNodeCondition]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:3 - DataflowFilter - Filter step NODE_DELETE_DANGLING AndCondition:[NodeTypeCondition:[PLSQL ColumnFlow], ParentNodeTypeCondition:[PLSQL TriggerFlow]]: nodes orig. 4, added 0 removed 0; edges orig. 0, added 0, removed 0; time: 0ms
+15:11:49 DEBUG 48666_oracle_FLEXUAT.properties:1 - DataflowFilter - Graph stats:
+Nodes: 4, edges: 0, DIRECT: 0, FILTER: 0

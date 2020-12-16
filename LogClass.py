@@ -1,14 +1,21 @@
+import os
 class Log:
     __slots__ = ('logname','phase','input_script')
 
     def __init__(self, logname, phase, mantascript, messages):
-        self.__logname = logname,
-        self.phase = phase,
+        self.__logname = logname
+        '''
+                self.phase = phase,
         self.mantascript = mantascript
         if messages is None:
             self.messages = []
         else:
             self.messages = list(messages)
+
+        
+        
+        '''
+
 
 
     @property
@@ -41,11 +48,14 @@ class Log:
 
 
     @classmethod
-    def from_file(cls,filename):
-        with open(filename) as f:
-            warnings = ''
-            messages = ''
-            errors = ''
+    def from_file(cls,dir_path,*filename):
+        if dir_path is None:
+            dir_path = os.path.dirname(os.path.realpath(__file__) + '\\' + filename)
+        with open(dir_path) as f:
+
+
+
+
 
         return cls(messages,errors,warnings)
 
@@ -56,3 +66,6 @@ class Log:
 
 
 
+
+
+print(os.path.dirname(os.path.realpath(__file__)))
