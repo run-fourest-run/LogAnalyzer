@@ -1,10 +1,6 @@
 import datetime
 import re
 
-testfile = r'C:\Users\afournier\Desktop\48666_26_11_2020_14_33_14.log'
-file = r'C:\Users\afournier\PycharmProjects\LogAnalyzer\Logs\test.txt'
-DATE_PATTERN = re.compile('\d\d:\d\d:\d\d')
-
 
 
 class Log:
@@ -16,14 +12,19 @@ class Log:
     ANALYSIS_PHASE_NAME_PATTERN  = re.compile('Analyzer')
     EXRACTOR_PHASE_NAME_PATTERN = re.compile('Extractor')
     DATE_PATTERN = re.compile('\d\d:\d\d:\d\d')
+    TIMEOUT_PATTERN = re.compile('')
+    EDGELIMIT_PATTERN = re.copile('')
 
 
 
-    def __init__(self, version,script_name,phase,elapsedtime):
+    def __init__(self, version,script_name,phase,elapsedtime,timeoutconfig,edgelimitconfig):
         self.__version = version
         self.__script_name = script_name
         self.__phase = phase
         self.elapsedtime = elapsedtime
+        self.__timeoutconfig = timeoutconfig
+        self.edgelimitconfig = edgelimitconfig
+
 
 
 
@@ -34,6 +35,20 @@ class Log:
     @property
     def scriptname(self):
         return self.__script_name
+
+    @property
+    def phase(self):
+        return self.__phase
+
+    @property
+    def timeoutconfig(self):
+        return self.__timeoutconfig
+
+    @property
+    def edgelimitconfig(self):
+        return self.__edgelimitconfig
+
+
 
 
 
