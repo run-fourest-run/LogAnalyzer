@@ -12,18 +12,16 @@ class Log:
     ANALYSIS_PHASE_NAME_PATTERN  = re.compile('Analyzer')
     EXRACTOR_PHASE_NAME_PATTERN = re.compile('Extractor')
     DATE_PATTERN = re.compile('\d\d:\d\d:\d\d')
-    TIMEOUT_PATTERN = re.compile('')
-    EDGELIMIT_PATTERN = re.copile('')
 
 
 
-    def __init__(self, version,script_name,phase,elapsedtime,timeoutconfig,edgelimitconfig):
+
+    def __init__(self, version,script_name,phase,elapsedtime):
         self.__version = version
         self.__script_name = script_name
         self.__phase = phase
         self.elapsedtime = elapsedtime
-        self.__timeoutconfig = timeoutconfig
-        self.edgelimitconfig = edgelimitconfig
+
 
 
 
@@ -40,13 +38,6 @@ class Log:
     def phase(self):
         return self.__phase
 
-    @property
-    def timeoutconfig(self):
-        return self.__timeoutconfig
-
-    @property
-    def edgelimitconfig(self):
-        return self.__edgelimitconfig
 
 
 
@@ -74,8 +65,11 @@ class Log:
             lines = f.readlines()
 
             #version attribute logic
-            version_object = next(filter(None, (re.search(cls.VERSION_PATTERN, x) for x in lines)))
-            version = version_object.group()
+            version_object = next(filter(None, (re.search(cls.VERSION_PATTERN, x) for x in lines)),False)
+            if version_object == False:
+                version = 'unknown'
+            else:
+                version = version_object.group()
 
 
             #script_name_attribute_logic
@@ -99,10 +93,10 @@ class Log:
 
 
             #execution time logic - Returns a datetime object
-            start_date_object = next(filter(None, (re.match(DATE_PATTERN, x) for x in lines)))
+            start_date_object = next(filter(None, (re.match(cls.DATE_PATTERN, x) for x in lines)))
             start_date_string = start_date_object.group(0)
 
-            all_date_objects = filter(None, (re.match(DATE_PATTERN, x) for x in lines))
+            all_date_objects = filter(None, (re.match(cls.DATE_PATTERN, x) for x in lines))
             lastdate_object = None
             for lastdate_object in all_date_objects:
                 continue
@@ -114,10 +108,9 @@ class Log:
 
 
 
+
+
+
             return cls(version,script_name,phase,elapsed_time)
-
-
-
-
 
 
