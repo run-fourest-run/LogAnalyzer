@@ -1,6 +1,8 @@
 import re
 from itertools import chain,groupby
 
+class Script:
+    def __init__(self):
 
 
 input_file = r'C:\Users\afournier\Desktop\testcopy3.log'
