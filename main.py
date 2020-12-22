@@ -1,4 +1,4 @@
-from LogClass import Log
+from Log import Log
 
 file_1 = r'C:\Users\afournier\Desktop\48666_26_11_2020_14_33_14.log'
 file_2 = r'C:\Users\afournier\PycharmProjects\LogAnalyzer\Logs\test.txt'
@@ -11,7 +11,7 @@ files = []
 files.append(file_1)
 files.append(file_2)
 for file in files:
-    print(Log.from_file(file))
+    print(Log.from_file(file).version)
 
-print(Log.from_file(file_3))
+
 

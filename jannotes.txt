@@ -1,0 +1,5 @@
+In the case of Citi: All the logs are unioned into a single file. Try to split the file back.
+
+Total Number of Scripts:
+search for 15:12:14 INFO  48666_oracle_FLEXUAT.properties:4 - OracleReader - The default schema name for script /OPUAT/Functions/FN_CHECK_CUSTOMER_GLS is set to OPUAT and count
+
