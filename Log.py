@@ -16,13 +16,15 @@ class Log:
 
 
 
-    def __init__(self, version,script_name,phase,elapsedtime):
+    def __init__(self,lines,version,script_name,phase,elapsedtime):
+        if lines is None:
+            self.lines = []
+        else:
+            self.lines = list(lines)
         self.__version = version
         self.__script_name = script_name
         self.__phase = phase
         self.elapsedtime = elapsedtime
-
-
 
 
 
@@ -44,13 +46,12 @@ class Log:
 
 
     #Magic Methods - str, repr, iter
-
     def __iter__(self):
         return (i for i in (self.__version,self.__script_name,self.__phase,self.elapsedtime))
 
     def __repr__(self):
         classname = type(self).__name__
-        return '{}({!r},{!r},{!r},{!r})'.format(classname,self.__version,self.__script_name,self.__phase,self.elapsedtime)
+        return '{}({!r},{!r},{!r},{!r},{!r})'.format(classname,self.lines,self.__version,self.__script_name,self.__phase,self.elapsedtime)
 
 
 
@@ -110,7 +111,6 @@ class Log:
 
 
 
-
-            return cls(version,script_name,phase,elapsed_time)
+            return cls(lines,version,script_name,phase,elapsed_time)
 
 
