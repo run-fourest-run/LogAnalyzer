@@ -1,100 +1,23 @@
 ---------------------------------------------------------------------
-Citi Manta Flow CLI (version 1.26.2)
+Manta Flow Oracle Extractor Master Scenario (version 1.28.2)
 ---------------------------------------------------------------------
+chunk1
 ---------------------------------------------------------------------
-Manta Diagnose Repository Scenario (version 1.28.2)
+Manta Flow Oracle Extractor Master Scenario (version 1.28.2)
 ---------------------------------------------------------------------
-/opt/mantaflow/cli/scenarios/manta-dataflow-cli/bin
-14:33:14 INFO  :0 - Main - Copyright (c) 2007-2019 Manta Tools.
-14:33:14 INFO  :0 - Main - This application was developed with financial support from TA CR.
-14:33:14 INFO  :0 - Main - License file: /opt/mantaflow/cli/platform/etc/license.key
-14:33:14 INFO  :0 - Main - Scenario    : /opt/mantaflow/cli/scenarios/manta-dataflow-cli
-14:33:14 INFO  :0 - Main - Inputs      : /opt/mantaflow/cli/input
-14:33:14 INFO  :0 - Main - Outputs     : /opt/mantaflow/cli/output
-14:33:14 INFO  :0 - Main - Temps       : /opt/mantaflow/cli/temp
-14:33:14 INFO  :0 - Main - Logs        : /opt/mantaflow/cli/log
-14:33:14 INFO  :0 - Main - Main platform version is 1.28.
-14:33:14 INFO  :0 - MantaVersionHelper - Installed patches:
-manta-dataflow-repository-merger-client-1.28.1.jar
-manta-connector-java-core-1.28.2.jar
-manta-connector-java-resolver-plugins-1.28.2.jar
-manta-dataflow-model-expressions-1.28.2.jar
-manta-connector-tableau-extractor-1.28.1.jar
-manta-connector-excel-resolver-1.28.1.jar
-manta-dataflow-import-metadata-cli-1.28.1.jar
-manta-dataflow-iedc-export-cli-1.28.1.jar
-manta-connector-mssql-dictionary-extractor-1.28.1.jar
-manta-connector-oracle-dictionary-extractor-1.28.1.jar
-manta-dataflow-generator-model-utils-1.28.1.jar
-manta-connector-erstudio-1.28.1.jar
-manta-connector-java-reader-configuration-1.28.1.jar
-manta-connector-excel-1.28.1.jar
-manta-dataflow-generator-oracle-1.28.1.jar
-manta-connector-powerbi-1.28.1.jar
-manta-connector-erstudio-resolver-1.28.1.jar
-manta-connector-xml-1.28.1.jar
-manta-connector-datastage-1.28.1.jar
-manta-dataflow-generator-datastage-1.28.2.jar
-manta-dataflow-igc-export-cli-1.28.1.jar
-manta-dataflow-import-metadata-1.28.1.jar
-manta-dataflow-filter-1.28.2.jar
-manta-connector-datastage-resolver-1.28.1.jar
-manta-connector-powerbi-extractor-1.28.1.jar
-manta-connector-modeling-common-1.28.1.jar
-manta-connector-tableau-1.28.1.jar
-manta-connector-powerbi-resolver-1.28.1.jar
-manta-dataflow-generator-talend-1.28.1.jar
-14:33:15 INFO  :0 - Main - License info: licensed to Citibank, N.A., expires after 2020-11-30.
---------------------------------------------------------
-Warning: License will expire in 5 days.
---------------------------------------------------------
-14:33:15 INFO  :0 - Main - Executing scenario 'Diagnose repository scenario' ...
-14:33:17 INFO  :0 - BasicOkCallback - OK response: {"success":"Operation fetch commited number has been successful.","revision":86.0}, time: 1588 ms
-/bd-fs-mnt/uat_nfs/manta_share_icg/lineage/scripts
----------------------------------------------------------------------
-Citi Manta Flow CLI - extract (version 1.26.2)
----------------------------------------------------------------------
+chunk2
 ---------------------------------------------------------------------
 Manta Flow Oracle Extractor Master Scenario (version 1.28.2)
 ---------------------------------------------------------------------
 /opt/mantaflow/cli/scenarios/manta-dataflow-cli/bin
 14:33:18 INFO  :0 - Main - Copyright (c) 2007-2019 Manta Tools.
-14:33:18 INFO  :0 - Main - This application was developed with financial support from TA CR.
-14:33:18 INFO  :0 - Main - License file: /opt/mantaflow/cli/platform/etc/license.key
-14:33:18 INFO  :0 - Main - Scenario    : /opt/mantaflow/cli/scenarios/manta-dataflow-cli
-14:33:18 INFO  :0 - Main - Inputs      : /opt/mantaflow/cli/input
-14:33:18 INFO  :0 - Main - Outputs     : /opt/mantaflow/cli/output
-14:33:18 INFO  :0 - Main - Temps       : /opt/mantaflow/cli/temp
-14:33:18 INFO  :0 - Main - Logs        : /opt/mantaflow/cli/log
-14:33:18 INFO  :0 - Main - Main platform version is 1.28.
-14:33:18 INFO  :0 - MantaVersionHelper - Installed patches:
-manta-dataflow-repository-merger-client-1.28.1.jar
-manta-connector-java-core-1.28.2.jar
-manta-connector-java-resolver-plugins-1.28.2.jar
-manta-dataflow-model-expressions-1.28.2.jar
-manta-connector-tableau-extractor-1.28.1.jar
-manta-connector-excel-resolver-1.28.1.jar
-manta-dataflow-import-metadata-cli-1.28.1.jar
-manta-dataflow-iedc-export-cli-1.28.1.jar
-manta-connector-mssql-dictionary-extractor-1.28.1.jar
-manta-connector-oracle-dictionary-extractor-1.28.1.jar
-manta-dataflow-generator-model-utils-1.28.1.jar
-manta-connector-erstudio-1.28.1.jar
-manta-connector-java-reader-configuration-1.28.1.jar
-manta-connector-excel-1.28.1.jar
-manta-dataflow-generator-oracle-1.28.1.jar
-manta-connector-powerbi-1.28.1.jar
-manta-connector-erstudio-resolver-1.28.1.jar
-manta-connector-xml-1.28.1.jar
-manta-connector-datastage-1.28.1.jar
-manta-dataflow-generator-datastage-1.28.2.jar
-manta-dataflow-igc-export-cli-1.28.1.jar
-manta-dataflow-import-metadata-1.28.1.jar
-manta-dataflow-filter-1.28.2.jar
-manta-connector-datastage-resolver-1.28.1.jar
-manta-connector-powerbi-extractor-1.28.1.jar
-manta-connector-modeling-common-1.28.1.jar
-manta-connector-tableau-1.28.1.jar
-manta-connector-powerbi-resolver-1.28.1.jar
-manta-dataflow-generator-talend-1.28.1.jar
-14:33:18 INFO  :0 - Main - License info: licensed to Citibank, N.A., expires after 2020-11-30.
+---------------------------------------------------------------------
+Manta Flow Oracle Extractor Master Scenario (version 1.28.2)
+---------------------------------------------------------------------
+/opt/mantaflow/cli/scenarios/manta-dataflow-cli/bin
+14:33:18 INFO  :0 - Main - Copyright (c) 2007-2019 Manta Tools.
+---------------------------------------------------------------------
+Manta Flow Oracle Extractor Master Scenario (version 1.28.2)
+---------------------------------------------------------------------
+/opt/mantaflow/cli/scenarios/manta-dataflow-cli/bin
+14:33:18 INFO  :0 - Main - Copyright (c) 2007-2019 Manta Tools.

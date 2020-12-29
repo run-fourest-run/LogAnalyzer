@@ -14,6 +14,7 @@ key_function = lambda line: re.search(regex_pattern,line)
 def get_script_chunks(input_file,key_function):
     with open(input_file) as f:
         groups = groupby(f,key_function)
+        segments = ()
         for k,v in groups:
             if k:
                 chunk = chain([next(v)], (next(groups)[1]))
